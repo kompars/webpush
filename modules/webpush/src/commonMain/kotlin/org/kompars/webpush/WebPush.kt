@@ -91,7 +91,7 @@ public class WebPush(
             .keyDecoder()
             .decodeFromByteArrayBlocking(AES.Key.Format.RAW, derivedKey)
             .cipher()
-            .encryptBlocking(derivedNonce, payload + byteArrayOf(2), null)
+            .encryptWithIvBlocking(derivedNonce, payload + byteArrayOf(2), null)
 
         return concatBytes(
             salt,
