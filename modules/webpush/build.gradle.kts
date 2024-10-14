@@ -6,9 +6,6 @@ plugins {
 
 repositories {
     mavenCentral()
-
-    // TODO: remove after dev.whyoleg.cryptography release 0.4.0
-    maven("https://s01.oss.sonatype.org/content/repositories/snapshots/")
 }
 
 kotlin {
