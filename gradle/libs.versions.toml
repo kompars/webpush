@@ -9,7 +9,7 @@ kotlinx-serialization = "1.8.0"
 ktor = "3.1.1"
 maven-publish = "0.30.0"
 playwright = "1.50.0"
-slf4j = "2.0.16"
+slf4j = "2.0.17"
 
 [plugins]
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
