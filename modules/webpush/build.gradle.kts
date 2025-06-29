@@ -12,6 +12,10 @@ kotlin {
     jvmToolchain(11)
     explicitApi()
 
+    compilerOptions {
+        optIn = listOf("kotlin.time.ExperimentalTime")
+    }
+
     jvm()
     linuxX64()
     linuxArm64()
@@ -21,7 +25,6 @@ kotlin {
             implementation(libs.cryptography.core)
             implementation(libs.cryptography.random)
             implementation(libs.cryptography.serialization.asn1.modules)
-            implementation(libs.kotlinx.datetime)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.ktor.client.core)
             implementation(libs.ktor.http)

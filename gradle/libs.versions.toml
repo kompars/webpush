@@ -4,7 +4,6 @@ dokka = "2.0.0"
 git-versioning = "6.4.4"
 kotlin = "2.2.0"
 kotlinx-bcv = "0.18.0"
-kotlinx-datetime = "0.7.0-0.6.x-compat"
 kotlinx-serialization = "1.8.1"
 ktor = "3.2.0"
 maven-publish = "0.33.0"
@@ -25,7 +24,6 @@ cryptography-provider-jdk = { module = "dev.whyoleg.cryptography:cryptography-pr
 cryptography-random = { module = "dev.whyoleg.cryptography:cryptography-random", version.ref = "cryptography" }
 cryptography-serialization-asn1-modules = { module = "dev.whyoleg.cryptography:cryptography-serialization-asn1-modules", version.ref = "cryptography" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
-kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
 ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
